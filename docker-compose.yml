@@ -1,0 +1,8 @@
+services:
+  postgres:
+
+  redis:
+
+  backend:
+
+  frontend:
