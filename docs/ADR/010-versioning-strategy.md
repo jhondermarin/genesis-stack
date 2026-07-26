@@ -28,6 +28,8 @@ Genesis Stack follows Semantic Versioning (`MAJOR.MINOR.PATCH`):
 
 Each release is documented in `docs/05-roadmap.md`, and any change affecting existing projects is accompanied by a migration note in the corresponding ADR.
 
+A `vX.Y.0` tag marks the completion of a full roadmap phase (e.g. Foundation, Infrastructure, Backend). A `vX.Y.Z` tag (Z > 0) marks reinforcements, corrections or documentation additions made within that same phase, without starting a new one.
+
 ---
 
 ## Consequences
