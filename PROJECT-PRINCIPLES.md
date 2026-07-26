@@ -59,3 +59,9 @@ The stack evolves through small, well-documented iterations.
 ## 10. Build for the Future
 
 Every decision should make future projects easier to maintain.
+
+## 11. Build Progressively
+
+Project structure should evolve with the application.
+
+Avoid creating folders, files or abstractions before they are needed.
