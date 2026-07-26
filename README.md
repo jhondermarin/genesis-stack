@@ -22,6 +22,7 @@ Create a reusable architecture that serves as the foundation for every future pr
 - PostgreSQL
 - TypeORM
 - Docker
+- pnpm + Turborepo
 
 ## Status
 
