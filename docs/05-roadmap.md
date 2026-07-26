@@ -4,6 +4,8 @@ Genesis Stack will evolve incrementally.
 
 Each version should improve the ecosystem without sacrificing consistency.
 
+Genesis Stack itself follows Semantic Versioning — see ADR-010.
+
 ---
 
 # v0.1 Foundation
@@ -14,6 +16,11 @@ Each version should improve the ecosystem without sacrificing consistency.
 - Coding conventions
 - Technology stack
 - ADRs
+- Monorepo tooling: pnpm + Turborepo (ADR-006)
+- Environment variable validation strategy (ADR-007)
+- Logging strategy (ADR-008)
+- Security baseline (ADR-009)
+- Versioning strategy for the stack itself (ADR-010)
 
 ---
 
