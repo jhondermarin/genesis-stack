@@ -1,5 +1,10 @@
 # Tech Stack
 
+## Monorepo Tooling
+
+- pnpm (package manager)
+- Turborepo (build orchestration & caching)
+
 ## Frontend
 
 - Next.js
