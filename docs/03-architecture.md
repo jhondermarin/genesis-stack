@@ -107,11 +107,11 @@ src/
 
 ### common/
 
-Shared decorators, guards, interceptors, filters, pipes and utilities.
+Shared decorators, guards, interceptors, filters, pipes and utilities, including the Pino logging module (ADR-008) and the global security setup — Helmet, CORS and rate limiting (ADR-009).
 
 ### config/
 
-Application configuration.
+Application configuration, including the Zod schema that validates `process.env` at bootstrap (`env.ts`). See ADR-007.
 
 ### database/
 
