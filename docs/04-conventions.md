@@ -200,6 +200,18 @@ test: add auth unit tests
 
 ---
 
+# Environment Variables
+
+Every app defines a Zod schema describing its expected environment variables.
+
+`process.env` is parsed against that schema at bootstrap; the app fails fast with a clear error if a variable is missing or malformed.
+
+New variables must be added to both the schema and `.env.example` in the same change.
+
+See ADR-007.
+
+---
+
 # Documentation
 
 Every important architectural decision must be documented through ADRs.
